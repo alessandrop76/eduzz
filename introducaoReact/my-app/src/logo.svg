@@ -1,0 +1,10 @@
+import React from 'react';
+
+
+
+function Button2(props){
+    const {e, onClick, name} = props
+    return  <button onClick={onClick} e  name >Button2</button>    
+};
+
+export default Button2;
