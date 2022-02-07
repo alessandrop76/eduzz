@@ -1,0 +1,37 @@
+Ciclos de vida
+Inicialização
+Montagemen
+Atualização
+Desmontagemen
+
+
+Inicialização { props e state}
+
+Montagemen { componentWillMount / render / componentDidMount}
+
+Atualização
+{ props {componentWillReciveProps / shouldComponentUpdate/}
+                       yes
+  {componentWillUpdate / render / componentDidUpdate}
+                        no
+
+{state {shouldComponentUpdate}}
+                 yes
+        {componentWillUpdate}
+                {render}
+        {componentDidUpdate}
+
+Desmontagemen {componentWillUnmount}
+
+
+a partir da Versão 17
+
+- componentDidMount
+- componentDidUpdate
+- componentDidCatch
+- componentWillUnmount
+- shouldComponentUpdate
+
+-getDerivedStateFromProps
+-getSnapShotBeforeUpdate
+

@@ -7,7 +7,7 @@ const Card = ({children}) =>{
      setValor(valor + 1);
     }
     function Remover(){
-        if(valor == 0){
+        if(valor === 0){
             setValor(valor)
         }else{
             setValor(valor - 1)
