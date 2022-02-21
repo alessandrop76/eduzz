@@ -1,0 +1,67 @@
+Instalar no vscode as extensões do React Native / ESLint /
+
+
+no terminal digitar o comando:
+npm install -g react-native
+ou
+npx react-native init <nome_do_projeto>
+
+npm install -g expo-cli
+
+npx react-native run-android
+ Run instructions for Android:
+    • Have an Android emulator running (quickest way to get started), or a device connected.
+    • cd "D:\DESENVOLVIMENTO\NODEJS\ESTUDOS\eduzz\06-ReactNative\appCurriculo" && 
+npx react-native run-android
+para rodar o Empacotador : npm start
+para rodar o Emulador: npm run android
+
+
+               ######                ######
+             ###     ####        ####     ###
+            ##          ###    ###          ##
+            ##             ####             ##
+            ##             ####             ##
+            ##           ##    ##           ##
+            ##         ###      ###         ##
+             ##  ########################  ##
+          ######    ###            ###    ######
+      ###     ##    ##              ##    ##     ###
+   ###         ## ###      ####      ### ##         ###
+  ##           ####      ########      ####           ##
+ ##             ###     ##########     ###             ##
+  ##           ####      ########      ####           ##
+   ###         ## ###      ####      ### ##         ###
+      ###     ##    ##              ##    ##     ###
+          ######    ###            ###    ######
+             ##  ########################  ##
+            ##         ###      ###         ##
+            ##           ##    ##           ##
+            ##             ####             ##
+            ##             ####             ##
+            ##          ###    ###          ##
+             ###     ####        ####     ###
+               ######                ######
+
+
+                  Welcome to React Native!
+                 Learn once, write anywhere
+
+√ Downloading template
+√ Copying template
+√ Processing template
+√ Installing dependencies
+
+
+  Run instructions for Android:
+    • Have an Android emulator running (quickest way to get started), or a device connected.
+    • cd "D:\DESENVOLVIMENTO\NODEJS\ESTUDOS\eduzz\06-ReactNative\appCurriculo" && npx react-native run-android
+
+  Run instructions for Windows:
+    • See https://aka.ms/ReactNativeGuideWindows for the latest up-to-date instructions.
+
+
+PACOTE DE ICONES
+npm install react-native-vector-icons
+npm install react-native link react-native-vector-icons
+

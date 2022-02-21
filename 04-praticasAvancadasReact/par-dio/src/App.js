@@ -1,6 +1,28 @@
 // import React from './react';
 // import ReactDom from 'react-dom';
 
+// const MeuComponentFuncional = () => <h1>Olá mundo dos componentes Funcionais</h1>
+
+// React.Dom.render(
+//     <MeuComponenteFuncional />,
+//     document.getElementById('root')
+// );
+
+// import React from './react';
+// import ReactDom from 'react-dom';
+
+// class MyComponenteDeClasse extends React.Component {
+//     render(){
+//         return <h1>Olá mundo das Classes</h1>
+//     }
+// };
+
+// React.Dom.render(
+//     <MeuComponenteDeClasse />,
+//     document.getElementById('root')
+// )
+
+
 // const Pai = (props)=>{
 //     return(
 //         <div 
@@ -43,7 +65,7 @@
 
 // ReactDom.render(<App />, document.getElementById("root"));
 
-// export default App;
+export default App;
 
 import React from 'react';
 import { Component } from "react";
