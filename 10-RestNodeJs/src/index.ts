@@ -1,4 +1,5 @@
-import express from 'express';
+import express, {Request, Response} from 'express';
+import db from './db';
 import errorHandler from './middlewares/error.handler.middlewares';
 import statusRoute from './routes/status.route';
 import usersRoute from './routes/users.route';

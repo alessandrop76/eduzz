@@ -1,6 +1,7 @@
 import {Pool} from 'pg';
+import conn from '../config/.env';
 
-const connectionString = 'postgres://zbhmciyg:78UCfUOS6UArQGJ3oddcJENxtcEZYnwY@tuffi.db.elephantsql.com/zbhmciyg';
+const connectionString = conn ;
 
 const db = new Pool({ connectionString });
 
